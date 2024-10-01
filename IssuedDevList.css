@@ -1,0 +1,48 @@
+/* IssuedDevList.css */
+
+.issued-dev-list-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.issued-dev-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.issued-dev-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.issued-dev-list-container th,
+.issued-dev-list-container td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.issued-dev-list-container th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.issued-dev-list-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.issued-dev-list-container tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.issued-dev-list-container td {
+    font-size: 14px;
+}
+
+.issued-dev-list-container th {
+    font-size: 16px;
+}

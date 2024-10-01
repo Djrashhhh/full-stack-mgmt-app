@@ -1,0 +1,60 @@
+/* Centered container */
+.delete-device-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Radio button styling */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button styling */
+.delete-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545; /* Red color for delete action */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red shade on hover */
+}
+
+/* Success and error messages */
+.success {
+    color: #28a745; /* Green color for success */
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.error {
+    color: #dc3545; /* Red color for error */
+    font-weight: bold;
+    margin-top: 15px;
+}

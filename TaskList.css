@@ -1,0 +1,26 @@
+/* src/components/TaskList.css */
+.tasklist-container {
+    background-color: #f0f0f0; /* Light grey background for the whole component */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Adds rounded corners to the container */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

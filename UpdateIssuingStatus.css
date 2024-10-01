@@ -1,0 +1,59 @@
+/* UpdateIssuingStatus.css */
+
+.update-issuing-status-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.update-issuing-status-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.update-issuing-status-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.update-issuing-status-container th,
+.update-issuing-status-container td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.update-issuing-status-container th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.update-issuing-status-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.update-issuing-status-container tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.update-issuing-status-container select,
+.update-issuing-status-container button {
+    padding: 8px;
+    margin: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.update-issuing-status-container button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.update-issuing-status-container button:hover {
+    background-color: #0056b3;
+}
