@@ -9,7 +9,7 @@ const CreateTask = () => {
     const [assigned_to, setAssignedTo] = useState('');
     //const [created_by, setCreatedBy] = useState('');
  
-    const [priority_level, setPriorityLevel] = useState('');
+    const [priorityLevel, setPriorityLevel] = useState('');
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
 
@@ -22,7 +22,7 @@ const CreateTask = () => {
             assigned_to: parseInt(assigned_to), // Integer type
             created_by: JSON.parse(localStorage.getItem('TOKEN')).role.roleId,   // Integer type
             
-            priority_level,
+            priorityLevel,
         };
 
         try {
